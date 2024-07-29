@@ -1,0 +1,49 @@
+.c-m-cont{
+    height: 147svh;
+    background-color: #F8F9FA;
+    padding: 7em ;
+    gap: 2em;
+}
+.Contact-info-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 5svh;
+}
+.Contact-info-cont > h3{
+font-size: 28px;
+font-weight: normal;
+}
+
+.Contact-info-cont > div{
+    display: flex;
+    gap: 12svh;
+}
+.Contact-info-cont > div > p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.411);
+}
+.j-map-container{
+    height: 20svh;
+    display: flex;
+    gap: 3em;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 78svh;
+    width: 44svw;
+    
+}
+.c-inputs{
+    display: block;
+    margin: 2svh;
+    height: 50px;
+    width: 26svw;
+    padding: 2svh;
+    outline:none;
+    border: 1px rgba(0, 0, 0, 0.192) solid;
+    border-radius: 10px;
+}
