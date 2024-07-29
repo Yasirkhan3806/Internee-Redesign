@@ -6,7 +6,7 @@ import interneeCertifcate from './Picture/certificate.jpeg';
 
 export default function BlogSection(props) {
   return (
-    <div style={{background:"#F8F9FA",height:"155svh", marginTop:`${props.marginTop}`}}>
+    <div className = "b-starting-cont" style={{background:"#F8F9FA",height:"155svh", marginTop:`${props.marginTop}`}}>
       <div className="blog-m-cont">
         <h5 style={{textAlign:"center",paddingTop:"20svh"}}>Our Blog</h5>
         <h2 style={{textAlign:"center",paddingBottom:"5svh"}}> <b>Recent Blog</b> </h2>

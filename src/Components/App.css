@@ -533,11 +533,107 @@ padding-top: 2svh;
 
 /* Responsiveness starts  */
 @media only screen and (max-width: 438px){
+  h1 {
+    font-size: 7SVH;
+  }
   /* NAVBAR.CSS STARTS  */
   .navbar{
     flex-wrap: nowrap !important;
   }
+  /* INTRO.CSS STARTS  */
   .intro-containers-container{
     flex-direction: column;
+  }
+  .intro-img {
+    top: 0em;
+    padding-top: 0em;
+    height: 388px;
+    margin: 11svh 0svh
+  }
+  .intro-container > img {
+    max-width: 335px;
+    padding-right: 0px;
+   
+  }
+  .fav-container {
+    height: 13.9svh;
+    width: 20svw;
+  }
+  .intro-btn {
+    padding: 16px 30px !important;
+  }
+
+  .info-container > p{
+    margin: 0em 20px !important;
+    font-size: 18px;
+  }
+  .info-container > h5{
+    margin-bottom: 15svh;
+  }
+  .intern-heading-containers > p{
+    width: 300px;
+    font-size: 18px;
+    margin-left: 15svh;
+
+  }
+
+  /* Browse Internship.css starts */
+  .main-containers {
+   flex-direction: column;
+  }
+
+  .intern-containers {
+    height: 76svh;
+    width: 93svw;
+  }
+  .blog-m-p-cont {
+    flex-direction: column;
+    gap: 10svh;
+    margin-left: 9svh;
+  }
+  .b-starting-cont{
+    height: 483svh !important;
+  }
+  .blogs {
+    height: 99svh;
+    width: 74svw;
+  }
+  
+  /* Manage.css Starts */
+  .manage-img-cont {
+    margin-left: 0svh;
+    width: 432px;
+  }
+
+  .manage-m-cont{
+    flex-direction: column;
+   
+  }
+  .manage-info-cont{
+    margin-top: -40svh;
+    order: 1;
+  }
+  .manage-cont > h5{
+    position: relative;
+    top: -84svh;
+
+  }
+  .manage-cont > h1{
+    position: relative;
+    top: -85svh;
+    width: 388px;
+  }
+  .manage-p-m-cont{
+    flex-direction: column;
+  }
+  .manage-p-cont{
+    width: 400px;
+  }
+  .footer-m-cont {
+    gap: 0svh;
+   
+  }
+  .social-m-cont{
+    width: 20px !important;
   }
 }
