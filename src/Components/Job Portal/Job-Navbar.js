@@ -22,7 +22,8 @@ export default function JobNavbar() {
         setnavBg("light");
       } else if (window.scrollY > 14) {
         nav.style.display = 'none';
-      } else {
+      }
+     else {
         nav.style.position = 'fixed';
         nav.style.display = 'block';
         setnavBg("transparent");
@@ -43,6 +44,7 @@ export default function JobNavbar() {
 
   const togglePopup = () => {
     setIsPopupVisible(!isPopupVisible);
+  
   };
 
   return (
@@ -72,7 +74,7 @@ export default function JobNavbar() {
               </li>
               <li className="nav-item job-nav-item">
                 <Link className="nav-link job-nav-link nav-buttons nav-job-btn" aria-disabled="true" onClick={togglePopup}>Login</Link>
-                {isPopupVisible && <PopupForm togglePopup={togglePopup} />}
+                {isPopupVisible && <PopupForm togglePopup={togglePopup}  />}
               </li>
               <li className="nav-item job-nav-item">
                 <Link className="nav-link job-nav-link nav-buttons" aria-disabled="true" to={"/internee-login"}>Post Job</Link>

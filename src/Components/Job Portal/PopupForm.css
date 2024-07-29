@@ -1,4 +1,4 @@
-.popup-overlay {
+  .popup-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -7,38 +7,64 @@
     background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+ 
   }
   
+  /* Rest of the CSS... */
   .popup-form {
-    background: white;
+    background: #d4edda;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    height: 72svh;
-    width: 39svw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    animation: slide-in 0.4s ease-out forwards;
+  }
+  @keyframes slide-in {
+    from {
+      transform: translateY(-200%);
+    }
+    to {
+      transform: translateY(-70%);
+    }
   }
   
+  
+  
   .close-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: transparent;
+    background: none;
     border: none;
+    cursor: pointer;
+    float: right;
     font-size: 20px;
+    color: #28a745;
+  }
+  
+  .popup-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+  }
+  
+  .p-b-container button {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
   }
   
-  .p-m-cont{
-    border: 1px solid;
-    height: 50svh;
-    padding: 2svh;
+  .p-b-container button:hover {
+    background: #218838;
   }
-
-  .popup-input{
-    height: 50px;
-    width: 30svw;
-    display: block;
-    padding: 2svh;
+  
+  .p-m-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+  

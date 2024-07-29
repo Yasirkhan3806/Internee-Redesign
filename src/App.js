@@ -67,7 +67,11 @@ function App() {
                                         {
                                           path: "/Contact-Us",
                                           element: <><JobContactus/></>,
-                                        }
+                                        },
+                                      {
+                                        path: "/Post-Job",
+                                        element: <><Loginform/></>,
+                                      }
         ]);
 
   return (

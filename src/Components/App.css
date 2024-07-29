@@ -530,3 +530,14 @@ padding-top: 2svh;
 .social-m-cont > ul > li{
   padding-top: 0px;
 }
+
+/* Responsiveness starts  */
+@media only screen and (max-width: 438px){
+  /* NAVBAR.CSS STARTS  */
+  .navbar{
+    flex-wrap: nowrap !important;
+  }
+  .intro-containers-container{
+    flex-direction: column;
+  }
+}
