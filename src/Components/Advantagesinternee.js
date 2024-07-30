@@ -5,7 +5,7 @@ import prog from "./Picture/programing.jpg"
 export default function Advantagesinternee() {
   return (
     <>
-    <div style={{display:"flex" ,gap:"10svh",marginTop:"8svh" }}>
+    <div className='a-m-cont' style={{display:"flex" ,gap:"10svh",marginTop:"8svh" }}>
       <div className="ad-m-conts">
         <h1>Why Internee.Pk</h1>
         <div className="greenbox-cont" style={{marginTop:"5svh"}}>
@@ -53,7 +53,7 @@ export default function Advantagesinternee() {
         
       </div>
       <div className="ad-m-conts ad-img-cont">
-        <img src={prog} alt="" data-aos="fade-left"/>
+        <img src={prog} alt="" data-aos="fade-right"/>
       </div>
     </div>
     </>

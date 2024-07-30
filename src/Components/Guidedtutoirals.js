@@ -8,8 +8,8 @@ import lms from "./Picture/lms.png";
 export default function Guidedtutoirals() {
   return (
     <div>
-      <div className="manage-m-cont">
-        <div className="manage-cont manage-info-cont" style={{width:"60svw",paddingLeft:"82px",}}>
+      <div id='guided-tutorial-m-cont' className="manage-m-cont">
+        <div id='guided-tutorial-cont' className="manage-cont manage-info-cont" style={{width:"60svw",paddingLeft:"82px",}}>
             <h5>Our LMS</h5>
             <h1>Guided Tutorials in Learning Management System</h1>
             <p style={{fontSize:"15px"}}>Want to learn something but don't know what's the roadmap or your english is not too good? That's why we launch LMS for you.</p>

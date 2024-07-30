@@ -533,12 +533,40 @@ padding-top: 2svh;
 
 /* Responsiveness starts  */
 @media only screen and (max-width: 438px){
+  html{
+    overflow-x: hidden !important;
+  }
+  /* *{
+    outline: 2px solid red;
+  } */
   h1 {
     font-size: 7SVH;
   }
   /* NAVBAR.CSS STARTS  */
   .navbar{
     flex-wrap: nowrap !important;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column !important;
+    width: 150px !important;
+  }
+  .navbar-expander-cont{
+    display: flex;
+    gap: 125px ;
+  }
+  .container-fluid{
+    gap: 0px !important;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .nav-link{
+    font-size:12px !important; ;
+  }
+  .nav-buttons{
+    padding: 7px 0px !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0px !important;
   }
   /* INTRO.CSS STARTS  */
   .intro-containers-container{
@@ -580,6 +608,7 @@ padding-top: 2svh;
   /* Browse Internship.css starts */
   .main-containers {
    flex-direction: column;
+   width: 400px;
   }
 
   .intern-containers {
@@ -601,26 +630,27 @@ padding-top: 2svh;
   
   /* Manage.css Starts */
   .manage-img-cont {
-    margin-left: 0svh;
-    width: 432px;
+    margin-left: 0svh !important;
+    width: 400px;
   }
 
   .manage-m-cont{
     flex-direction: column;
-   
+   height: 256svh;
   }
   .manage-info-cont{
-    margin-top: -40svh;
+    margin-top: -60svh;
     order: 1;
+    padding-left: 19px !important;
   }
   .manage-cont > h5{
     position: relative;
-    top: -84svh;
+    top: -46svh;
 
   }
   .manage-cont > h1{
     position: relative;
-    top: -85svh;
+    top: -48svh;
     width: 388px;
   }
   .manage-p-m-cont{
@@ -629,11 +659,470 @@ padding-top: 2svh;
   .manage-p-cont{
     width: 400px;
   }
-  .footer-m-cont {
-    gap: 0svh;
+  .manage-cont > img {
+    height: auto !important;
+    width: 92% !important;
+  }
+  .p-text-cont > P{
+    width: 296px;
+  }
+  #guided-tutorial-m-cont{
+    height: 287svh;
+  }
+  #guided-tutorial-cont{
+    margin-top: -43svh;
+  }
+  #guided-tutorial-cont > h1{
+    top: -101svh;
+  }
+  #guided-tutorial-cont > h5{
+    top: -99svh;
+  }
+  #create-courses-cont > h1{
+    top: -68svh;
+  }
+  #create-courses-cont > h5{
+    top: -66svh;
+  }
+  #job-portal-cont{
+    margin-top:-43svh ;
+  }
+  #job-portal-cont > h1{
+ top: -92svh;
+  }
+  #job-portal-cont > h5{
+    top: -90svh;
+     }
+     .greenbox-cont{
+      width: 45svh;
+      margin-left: 0px;
+     }
+     .ad-m-conts > h1{
+      padding-left: 2svh;
+     }
+     .a-m-cont{
+      flex-direction: column;
+      gap:47svh !important ;
+     }
+     .ad-m-conts{
+      width: 80svw;
+     }
+     .ad-img-cont{
+      margin-left: 9svh;
+      height: 98svh;
+     }
+     .ad-img-cont > img {
+      margin-left: 0px;
+      max-width: 100% !important;
+     }
+     .slick-list{
+      width:290svw ;
+     }
+     .r-m-cont{
+      padding: 14px;
+     }
+     .r-adv-cont{
+      flex-direction: column;
+     }
+.footer-m-cont{
+  flex-direction: column;
+  height: 120svh;
+  gap: 0svh;
+}
+}
+@media (min-width: 438px) and (max-width: 768px) {
+  html {
+    /* overflow-x: hidden !important; */
+  }
+  /* *{
+    outline: 2px solid red;
+  } */
+  h1 {
+    font-size: 7svh;
+  }
+  /* NAVBAR.CSS STARTS */
+  .navbar {
+    flex-wrap: nowrap !important;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column !important;
+    width: 35.53svw!important;
+  }
+  .navbar-expander-cont {
+    display: flex;
+    gap: 49.28svw;
+  }
+  .container-fluid {
+    gap: 0px !important;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .nav-link {
+    font-size: 3.17svh !important;
+  }
+  .nav-buttons {
+    padding: 0.68svh 0px !important; /* 7px ≈ 0.68svh */
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0px !important;
+  }
+  /* INTRO.CSS STARTS */
+  .intro-containers-container {
+    flex-direction: column;
+    height: 229svh;
+  }
+  .intro-img {
+    top: 0em;
+    padding-top: 0em;
+    height: 37.89svh;
+    margin: 11svh 0svh;
+  }
+  .intro-container > img {
+    max-width: 100%;
+    padding-right: 0px;
+  }
+  .fav-container {
+    height: 13.9svh;
+    width: 20svw;
+  }
+  .intro-btn {
+    padding: 1.56svh 3.12svw !important;
+  }
+  .info-container > p {
+    margin: 0em 1.95svw !important;
+    font-size: 3.76svh;
+  }
+  .info-container > h5 {
+    margin-bottom: 15svh;
+  }
+  .intern-heading-containers > p {
+    width: 78.06svw;
+    font-size: 3.76svh;
+    margin-left: 22svh;
+  }
+  /* BROWSE INTERNSHIP.CSS STARTS */
+  .main-containers {
+    flex-direction: column;
+    width: 52.08svw;
+  }
+  .intern-containers {
+    height: auto;
+    width: 95svw;
+  }
+  .blog-m-p-cont {
+    flex-direction: column;
+    gap: 25svh;
+    margin-left: 9svh;
+  }
+  .b-starting-cont {
+    height: 627svh !important;
+    width: 100.7svw;
+}
+  .blogs {
+    height: 122svh;
+    width: 90svw;
+  }
+  /* MANAGE.CSS STARTS */
+  .manage-img-cont {
+    width: 95.08svw;
+    margin: -4svh 0svh;
+}
+  .manage-m-cont {
+    flex-direction: column;
+    height: 291svh;
+    margin-top: 31%;
+  }
+  .manage-info-cont {
+    margin-top: -53svh;
+    order: 1;
+    padding-left: 2.48svw !important; /* 19px ≈ 2.48svw */
+  }
+  .manage-cont > h5 {
+    position: relative;
+    bottom: 50svh;
+  }
+  .manage-cont > h1 {
+    position: relative;
+    bottom: 52svh;
+    width: 68.52svw;
+  }
+  .manage-p-m-cont {
+    flex-direction: column;
+  }
+  .manage-p-cont {
+    width: 52.08svw;
+  }
+  .manage-cont > img {
+    height: auto !important;
+    width: 92% !important;
+  }
+  .p-text-cont > p {
+    width: 58.54svw;
+    font-size: 22px;
+  }
+  #guided-tutorial-m-cont {
+    height: 312svh;
+  }
+  #guided-tutorial-cont {
+    margin-top: -17svh;
+  }
+  #guided-tutorial-cont > p{
+    font-size: 23px;
+    width: 80svw;
    
   }
-  .social-m-cont{
-    width: 20px !important;
+  #guided-tutorial-cont > h1 {
+    bottom: 124svh;
+  }
+  #guided-tutorial-cont > h5 {
+    bottom: 126svh;
+  }
+  #create-courses-cont{
+    margin-top: -30svh ;
+  }
+  #create-courses-cont > h1 {
+    bottom: 98svh;
+  }
+  #create-courses-cont > h5 {
+    bottom: 99svh;
+  }
+  #job-portal-cont {
+    margin-top: -11svh;
+  }
+  #job-portal-cont > h1 {
+   bottom: 135svh;
+  }
+  #job-portal-cont > h5 {
+    bottom: 136svh;
+  }
+  .a-m-cont {
+    flex-direction: column;
+    gap: 47svh !important;
+  }
+  .ad-m-conts {
+    width: 86.5svw;
+  }
+  .ad-img-cont {
+    margin-left: 15svh;
+    height: 98svh;
+  }
+  .ad-img-cont > img {
+    margin-left: 0px;
+    max-width: 100% !important;
+  }
+  .slick-list {
+      width: 176svw;
+  }
+  .r-m-cont {
+    padding: 1.37svh; /* 14px ≈ 1.37svh */
+  }
+  .r-adv-cont {
+    flex-direction: column;
+  }
+  .footer-m-cont {
+    flex-direction: column;
+    height: 120svh;
+    gap: 0svh;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px){
+  html {
+    /* overflow-x: hidden !important; */
+  }
+  /* *{
+    outline: 2px solid red;
+  } */
+  h1 {
+    font-size: 7svh;
+  }
+  /* NAVBAR.CSS STARTS */
+  .navbar {
+    flex-wrap: nowrap !important;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column !important;
+    width: 35.53svw!important;
+  }
+  .navbar-expander-cont {
+    display: flex;
+    gap: 70.28svw;
+  }
+  .container-fluid {
+    gap: 0px !important;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .nav-link {
+    font-size: 3.17svh !important;
+  }
+  .nav-buttons {
+    padding: 0.68svh 0px !important; /* 7px ≈ 0.68svh */
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0px !important;
+  }
+  /* INTRO.CSS STARTS */
+  .intro-containers-container {
+    flex-direction: column;
+    height: 229svw;
+    margin-bottom: 12%;
+  }
+  .intro-container > h1{
+    font-size: 6svh;
+  }
+  .intro-img {
+    top: 0em;
+    padding-top: 0em;
+    height: auto;
+    margin: 11svh 0svh;
+  }
+  .intro-container > img {
+    max-width: 100%;
+    padding-right: 0px;
+  }
+  .fav-container {
+    height: 13.9svh;
+    width: 20svw;
+  }
+  .intro-btn {
+    padding: 1.56svh 3.12svw !important;
+  }
+  .info-container > p {
+    margin: 0em 1.95svw !important;
+    font-size: 3.76svh;
+  }
+  .info-container > h5 {
+    margin-bottom: 15svh;
+  }
+  .intern-heading-containers > p {
+    width: 78.06svw;
+    font-size: 3.76svh;
+    margin-left: 22svh;
+  }
+  /* BROWSE INTERNSHIP.CSS STARTS */
+  .main-containers {
+      flex-direction: row;
+      width: 96.08svw;
+      gap: 5svh;
+  }
+  .intern-containers {
+    height: auto;
+    width: 95svw;
+  }
+  .blog-m-p-cont {
+           /* flex-direction: column; */
+        /* gap: 25svh; */
+        margin-left: 9%;
+  }
+  .b-starting-cont {
+      height: 192svh !important;
+      width: 99.7svw;
+}
+  .blogs {
+    height: 122svh;
+    width: 20svw;
+  }
+  /* MANAGE.CSS STARTS */
+  .manage-img-cont {
+    width: 95.08svw;
+    margin: -4svh 0svh;
+}
+  .manage-m-cont {
+    flex-direction: column;
+    height: 186svh;
+    margin-top: 31%;
+  }
+  .manage-info-cont {
+    margin-top: -33svh;
+    order: 1;
+    padding-left: 2.48svw !important; /* 19px ≈ 2.48svw */
+  }
+  .manage-cont > h5 {
+    position: relative;
+    bottom: 81svh;
+  }
+  .manage-cont > h1 {
+    position: relative;
+    bottom: 83svh;
+    width: 68.52svw;
+  }
+  .manage-p-m-cont {
+    /* flex-direction: column; */
+    width: 97svw;
+  }
+  .manage-p-cont {
+    width: 48.08svw;
+  }
+  .manage-cont > img {
+    height: auto !important;
+    width: 92% !important;
+  }
+  .p-text-cont > p {
+    width: 35.54svw;
+    font-size: 17px;
+  }
+  #guided-tutorial-m-cont {
+    height: 253svh;
+  }
+  #guided-tutorial-cont {
+    margin-top: -17svh;
+  }
+  #guided-tutorial-cont > p{
+    font-size: 23px;
+    width: 80svw;
+   
+  }
+  #guided-tutorial-cont > h1 {
+    bottom: 124svh;
+  }
+  #guided-tutorial-cont > h5 {
+    bottom: 126svh;
+  }
+  #create-courses-cont{
+    margin-top: -11svh ;
+  }
+  #create-courses-cont > h1 {
+    bottom: 137svh;
+  }
+  #create-courses-cont > h5 {
+    bottom: 135svh;
+  }
+  #job-portal-cont {
+    margin-top: -11svh;
+  }
+  #job-portal-cont > h1 {
+   bottom: 135svh;
+  }
+  #job-portal-cont > h5 {
+    bottom: 136svh;
+  }
+  .a-m-cont {
+    flex-direction: column;
+    gap: 47svh !important;
+  }
+  .ad-m-conts {
+    width: 70.3svw;
+  }
+  .ad-img-cont {
+    margin-left: 45svh;
+    height: 98svh;
+  }
+  .ad-img-cont > img {
+    margin-right: 0%;
+    max-width: 100% !important;
+  }
+  .slick-list {
+      width: 148svw;
+  }
+  .r-m-cont {
+    padding: 1.37svh; /* 14px ≈ 1.37svh */
+  }
+  .r-adv-cont {
+    flex-direction: column;
+  }
+  .footer-m-cont {
+    flex-direction: column;
+    height: 120svh;
+    gap: 0svh;
   }
 }

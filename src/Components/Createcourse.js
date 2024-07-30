@@ -9,10 +9,10 @@ export default function ManageTask() {
   return (
     <div>
       <div className="manage-m-cont">
-        <div className="manage-cont manage-img-cont">
+        <div  className="manage-cont manage-img-cont">
             <img src={instructor} alt=""  style={{height:"auto",maxWidth:"100%"}} data-aos="fade-right" / >
         </div>
-        <div className="manage-cont manage-info-cont" style={{width:"60svw"}}>
+        <div  id='create-courses-cont' className="manage-cont manage-info-cont" style={{width:"60svw"}}>
             <h5>Are you Tech Instructor or Content Creator?</h5>
             <h1>Create Courses In Local Language & Generate Income</h1>
             <p style={{fontSize:"15px"}}>Are you a professional want to start your journey as a tech instructor and content creator to make some revenue? Just visit Our LMS Intructor Portal</p>

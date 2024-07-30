@@ -9,7 +9,7 @@ export default function Jobportal() {
   return (
     <div>
       <div className="manage-m-cont">
-        <div className="manage-cont manage-info-cont" style={{width:"60svw",paddingLeft:"82px",}}>
+        <div id='job-portal-cont' className="manage-cont manage-info-cont" style={{width:"60svw",paddingLeft:"82px",}}>
             <h5>Already have a good skill but looking for job?</h5>
             <h1>Job Portal, Ultimate Place To Find The Best Job</h1>
             <p style={{fontSize:"15px"}}>Streamline the approval process with your customer to quickly close the deal, get the sale, and start production.</p>
