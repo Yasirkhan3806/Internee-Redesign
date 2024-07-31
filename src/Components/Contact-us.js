@@ -69,7 +69,8 @@ export default function Contactus() {
 
 <div className="map-cont">
 <MapComponent/>
-<div class="card" style={{top:"215svh"}}>
+</div>
+<div class="card" style={{top:"100svw"}}>
   <span class="title">
   Project in mind? Let’s Talk 🚀</span>
   <form class="form">
@@ -89,7 +90,27 @@ export default function Contactus() {
     <p style={{fontSize:"12px" ,letterSpacing:"0.5"}}>After your message submission, Our team will respond 1-2 Business days</p>
   </form>
 </div>
+{/* <div class="card" style={{top:"215svh"}}>
+  <span class="title">
+  Project in mind? Let’s Talk 🚀</span>
+  <form class="form">
+    <div class="group">
+    <input placeholder="" type="text" required=""/>
+    <label for="name">Name</label>
+    </div>
+<div class="group">
+    <input placeholder="" type="email" id="email" name="email" required=""/>
+    <label for="email">Email</label>
+    </div>
+<div class="group">
+    <textarea placeholder="" id="comment" name="comment" rows="5" required=""></textarea>
+    <label for="comment">Message</label>
 </div>
+    <button type="submit">Submit</button>
+    <p style={{fontSize:"12px" ,letterSpacing:"0.5"}}>After your message submission, Our team will respond 1-2 Business days</p>
+  </form>
+</div>
+</div> */}
 
         </main>
         <footer>

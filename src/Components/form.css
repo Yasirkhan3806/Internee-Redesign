@@ -133,10 +133,33 @@
     transform: rotateY(-180deg);
   }
 
-  .form{
-    margin-top:280px;
-  }
+
   .form_front > span > a{
     text-decoration: none;
     color: rgb(14, 172, 14);
+  }
+
+  @media only screen and (max-width: 438px){
+    .card{
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      width: 266px;
+      display: flex;
+      flex-direction: column;
+      height: 436px;
+      position: relative;
+      top: -113svw !important;
+      right: -19%;
+      z-index: 2;
+    
+    }
+    .form{
+      margin-top: 0px !important;
+    }
+    .form .group input, .form .group textarea {
+      margin-bottom: 2svw;
+    
+    }
+    
   }

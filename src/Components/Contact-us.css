@@ -20,6 +20,7 @@
     width: 20px;
     background-color: rgb(35, 218, 35);
     border-radius:50% ;
+    z-index: 2;
 }
 .greendot::before{
     content: '';
@@ -65,4 +66,59 @@
     font-size: 18px;
     margin: 0;
    letter-spacing: 0.5px;
+}
+
+
+@media only screen and (max-width: 438px){
+    .d-m-cont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        margin-bottom: 219px;
+        height: 59svw;
+      
+      }
+      .greendot::before {
+        height: 60.5svw;
+        bottom: 60.5svw;
+        left: 34%;
+      }
+      
+.greendot::after {
+    height: 47svw;
+    bottom: 9svw;
+    left: 14%;
+}
+
+}
+@media (min-width: 438px) and (max-width: 768px) {
+.card{
+    top: 220svw !important;
+}
+.greendot::before {
+    height: 18.8svw;
+    bottom: 18.5svw;
+    left: 39%;
+}
+.greendot::after {
+    height: 11.7svw;
+    bottom: 4.9svw;
+    left: 16%;
+}
+}
+@media (min-width: 769px) and (max-width: 972px) {
+    .card{
+        top: 220svw !important;
+    }
+    .greendot::before {
+        height: 18.6svw;
+        bottom: 18.5svw;
+        left: 39%;
+      }
+    .greendot::after {
+        height: 10.6svw;
+        bottom: 5.7svw;
+        left: 17%;
+    }
 }

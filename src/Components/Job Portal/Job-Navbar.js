@@ -16,7 +16,7 @@ export default function JobNavbar() {
         nav.style.display = 'block';
         nav.style.top = '0';
         nav.style.margin= '0';
-        nav.style.width = '1500px';
+        nav.style.width = '100svw';
         nav.style.boxShadow = '8px -4px 5px 4px';
         navLinks.forEach(link => link.style.color = 'black');
         setnavBg("light");
@@ -29,7 +29,7 @@ export default function JobNavbar() {
         setnavBg("transparent");
         navLinks.forEach(link => link.style.color = 'white');
         nav.style.margin= '28px';
-        nav.style.width = '1293px';
+        nav.style.width = '80svw';
         nav.style.boxShadow = '0px 0px 0px 0px';
       }
     };
