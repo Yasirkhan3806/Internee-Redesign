@@ -10,11 +10,11 @@ export default function Loginform() {
         <Navbar/>
     </header>
  
-    <div style={{background:"#6edb3c57", height:"85svh"}}>
+    <div className='login-m-cont' style={{background:"#6edb3c57", height:"85svh"}}>
       <div className="container">
 
     <input type="checkbox" id="signup_toggle"/>
-    <form className="form">
+    <form className="form" id='login-form'>
         <div className="form_front">
             <div className="form_details"><img src={logo} alt="" /></div>
             <input placeholder="Username" className="input" type="email" required/>

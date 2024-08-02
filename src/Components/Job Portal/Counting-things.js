@@ -6,7 +6,7 @@ export default function Countingthings() {
     <>
      <div className="main-cont m2-cont" style={{backgroundImage:`url(${hero})`, height:"35svh",zIndex:"-1",backgroundSize:"cover", backgroundAttachment:"Fixed",backgroundPosition:"center"}}>
      <div className="overlay" style={{background: 'rgba(0, 0, 0, 0.61)'}}></div> {/* Add the overlay div */}
-     <div className='content' style={{height:"35svh"}}>
+     <div id='count-content' className='content' style={{height:"35svh"}}>
       <div className="counting-m-cont">
         <div className="counting-conts">
           <h2>35</h2>
