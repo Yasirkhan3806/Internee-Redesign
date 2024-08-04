@@ -35,7 +35,7 @@ export default function Browseinternship() {
         <img src={backend} alt="Backend picture" />
         <h5 style={{margin:"20px"}}>Backend Development</h5>
         <hr style={{width:"22svw",marginLeft:'20px'}}/>
-        <button class="button" style={{alignSelf:"end", marginRight:"20px", boxShadow:" 0px 0px 0px rgba(0, 0, 0, 0.2)"}}>
+   <Link to = "/Backend-Internship" >   <button class="button" style={{alignSelf:"end", marginRight:"20px", boxShadow:" 0px 0px 0px rgba(0, 0, 0, 0.2)"}}>
   Apply Now
   <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
     <path
@@ -45,12 +45,13 @@ export default function Browseinternship() {
     ></path>
   </svg>
 </button>
+</Link>
       </div>
       <div className="intern-containers">
         <img src={graphic} alt="Graphic picture" />
         <h5 style={{margin:"20px"}}>Graphic Designer</h5>
         <hr style={{width:"22svw",marginLeft:'20px'}}/>
-        <button class="button" style={{alignSelf:"end", marginRight:"20px", boxShadow:" 0px 0px 0px rgba(0, 0, 0, 0.2)"}}>
+        <Link to = "/Graphic-Internship" >   <button class="button" style={{alignSelf:"end", marginRight:"20px", boxShadow:" 0px 0px 0px rgba(0, 0, 0, 0.2)"}}>
   Apply Now
   <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
     <path
@@ -60,12 +61,13 @@ export default function Browseinternship() {
     ></path>
   </svg>
 </button>
+</Link>
       </div>
       <div className="intern-containers">
         <img src={chatbot} alt="chatbot picture" />
         <h5 style={{margin:"20px"}}>Chatbot Development</h5>
         <hr style={{width:"22svw",marginLeft:'20px'}}/>
-        <button class="button" style={{alignSelf:"end", marginRight:"20px", boxShadow:" 0px 0px 0px rgba(0, 0, 0, 0.2)"}}>
+        <Link to = "/Chatbot-Internship" >   <button class="button" style={{alignSelf:"end", marginRight:"20px", boxShadow:" 0px 0px 0px rgba(0, 0, 0, 0.2)"}}>
   Apply Now
   <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
     <path
@@ -75,6 +77,7 @@ export default function Browseinternship() {
     ></path>
   </svg>
 </button>
+</Link>
       </div>
       </div>
       <div className="main-containers">

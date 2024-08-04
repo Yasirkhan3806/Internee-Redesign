@@ -19,7 +19,7 @@ export default function Applypage(props) {
        <p className='main-page-subheading'>Grab your <b>Internships</b> on your favourite domain now..!</p>
        <div className='apply-m-cont'>
         <div className='application-cont'>
-          <div className='circular-img-cont'></div>
+          <div className='circular-img-cont'> <img src = {props.intern1Pic} alt= ""/> </div>
           <div className='application-data-cont'>
             <div>
               <h4><b>{props.intern1}</b></h4>
@@ -48,7 +48,9 @@ export default function Applypage(props) {
           </div>
         </div>
         <div className='application-cont'>
-          <div className='circular-img-cont'></div>
+          <div className='circular-img-cont'> <img src = {props.intern2Pic} alt = "Intern-Picture"/>
+
+          </div>
           <div className='application-data-cont'>
             <div>
               <h4><b>{props.intern2}</b></h4>
@@ -77,7 +79,7 @@ export default function Applypage(props) {
           </div>
         </div>
         <div className='application-cont'>
-          <div className='circular-img-cont'></div>
+          <div className='circular-img-cont'> <img src = {props.intern3Pic} alt = "Intern-Picture"/></div>
           <div className='application-data-cont'>
             <div>
               <h4><b>{props.intern3}</b></h4>
@@ -106,7 +108,7 @@ export default function Applypage(props) {
           </div>
         </div>
         <div className='application-cont'>
-          <div className='circular-img-cont'></div>
+          <div className='circular-img-cont'> <img src = {props.intern4Pic} alt = "Intern-Picture"/></div>
           <div className='application-data-cont'>
             <div>
               <h4><b>{props.intern4}</b></h4>
@@ -137,6 +139,7 @@ export default function Applypage(props) {
        </div>
   
       </main>
+    
     </>
   )
 }
