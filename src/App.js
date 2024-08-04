@@ -11,6 +11,8 @@ import JobCompany from './Components/Job Portal/Job-Company';
 import HiringNow from './Components/Job Portal/Hiring-Now';
 import Aboutus from './Components/Job Portal/About-us';
 import JobContactus from './Components/Job Portal/Job-Contact-us';
+import Applypage from './Components/Apply Page/Apply-page';
+import MobileAppapply from './Components/Apply Page/MobileApp-apply';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -71,14 +73,21 @@ function App() {
                                       {
                                         path: "/Post-Job",
                                         element: <><Loginform/></>,
-                                      }
+                                      },
+                                  {
+                                    path: "/Apply-Page",
+                                    element: <><Applypage/></>,
+                                  },
+                                  {
+                                    path: "/Mobile-App-Internship",
+                                    element: <><MobileAppapply/></>,
+                                  }
         ]);
 
   return (
     <div className="App">
     
       <RouterProvider router={router} />
-  <h1>Hello World</h1>
     
     </div>
   );
