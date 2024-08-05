@@ -10,7 +10,7 @@ export default function Loginform() {
         <Navbar/>
     </header>
  
-    <div className='login-m-cont' style={{background:"#6edb3c57", height:"85svh"}}>
+    <div className='login-m-cont' style={{background:"#6edb3c57", height:"60svw"}}>
       <div className="container">
 
     <input type="checkbox" id="signup_toggle"/>
